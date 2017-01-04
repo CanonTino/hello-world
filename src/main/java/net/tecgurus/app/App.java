@@ -9,7 +9,7 @@ public class App {
 		user.setFirstName("Florentino");
 		user.setLastName("Salazar");
 		
-		System.out.println("Created User: " + user.getFullName());
+		System.out.println("Created User: " + user.getFullName() + " First name: " + user.getFirstName() + " Last name: " + user.getLastName());
 	}
 
 }
